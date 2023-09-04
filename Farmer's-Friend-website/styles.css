@@ -1,0 +1,98 @@
+body{
+    background-image: url('image/public.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+h1{
+    color: #fff;
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+    
+}
+
+/* .container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    background-color: darkgreen;
+    border-radius: 5px;
+    padding : 10px 40px;
+    
+}
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This makes sure the container takes up the full viewport height */
+}
+
+.container h1{
+    font-size: 70px;
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 0%;
+    
+}
+
+.container p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: x-large;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.button-container {
+    margin-top: 20px; /* Adding a bit of space between the title and buttons */
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grid-container p{
+    padding-right: 40px;
+}
+
+.button {
+    margin-bottom: 10px; /* Adding spacing between buttons */
+}
+
+/* Optional: Style the buttons */
+.button-in {
+    
+    padding: 10px 20px;
+    background-color: #9a6f2f;
+    color: #fff;
+    border: black;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.button-in:hover {
+    background-color: #21760e;
+    
+}
+
+iframe{
+    justify-content: center;
+    text-align: center;
+    padding-left: 8%;
+    padding-top: 5%;
+}
